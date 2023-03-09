@@ -1,0 +1,67 @@
+.header{
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+
+.head1{
+    /* background-color: aqua; */
+    
+}
+
+.head2{
+    /* background-color: aqua; */
+}
+nav{
+    display: grid;
+    grid-template-columns: 15em auto;
+}
+li{
+    float: left;
+    font-size: 1.3em;
+    margin: 1.5em 0.5em 0.3em 0.5em;
+}
+ .logo{
+    width: 15em;
+    height: 5em;
+ }
+
+ a{
+    color: #323233;
+ }
+ a:hover{
+    color: #D9B44D;
+ }
+
+ .btn1{
+    background-color:#FCD535;
+    height: 1.9em;
+    width: 4.5em;
+    padding: 0.3em;
+    margin-top: 1.2em;
+    border-radius: 0.3em;
+    text-align: center;
+ }
+ .btn2, .btn3{
+    background-color: #FCD535;
+    border: none;
+    border-radius: 3px;
+    height: 2em;
+    width: 7em;
+    padding: 2px;
+}
+
+ .promo{
+    text-align: center;
+    background-color: #faefbd;
+    height: 3em;
+    padding-top: 0.7em;
+    position: sticky;
+    top: 0px;
+    font-size: 1.3em;
+}
+
+.firstPart{
+    background-image: url("./images/Binance-background-image.png");
+    height:20em;
+}
