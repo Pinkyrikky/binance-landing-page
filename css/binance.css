@@ -50,6 +50,23 @@ li{
     width: 7em;
     padding: 2px;
 }
+.btn3{
+    height: 3em;
+    width: 23.6em;
+    margin: 2em 0px;
+    font-size: 1.3em;
+    font-weight:bold;
+    color: #2E2F35;
+}
+
+.btn4, .btn5{
+    height: 3em;
+    width: 11em;
+    margin: 2em 0em;
+    outline: none;
+    border: none;
+    border-radius:0.3em;
+}
 
  .promo{
     text-align: center;
@@ -62,6 +79,27 @@ li{
 }
 
 .firstPart{
-    background-image: url("./images/Binance-background-image.png");
-    height:20em;
+    background-image: url(../images/Binance-background-image.png);
+    height:60em;
+    background-size: contain;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* align-items: center; */
+    padding:10em 6em 0em 6em;
+    gap:2em
+}
+
+
+h1{
+    font-size:3.5em;
+}
+
+.p{
+    font-size: 2em;
+    color: #323233;
+}
+
+.svg{
+    width: 1.1em;
+    
 }
