@@ -18,12 +18,12 @@ nav{
 }
 li{
     float: left;
-    font-size: 1.3em;
+    font-size: 0.9em;
     margin: 1.5em 0.5em 0.3em 0.5em;
 }
  .logo{
-    width: 15em;
-    height: 5em;
+    width: 12em;
+    height: 3em;
  }
 
  a{
@@ -52,20 +52,24 @@ li{
 }
 .btn3{
     height: 3em;
-    width: 23.6em;
-    margin: 2em 0px;
-    font-size: 1.3em;
+    width: 23em;
+    margin: 1.5em 0px;
+    font-size: 1em;
     font-weight:bold;
     color: #2E2F35;
 }
 
+
 .btn4, .btn5{
-    height: 3em;
-    width: 11em;
+    height: 4em;
+    width: 13em;
     margin: 2em 0em;
     outline: none;
     border: none;
     border-radius:0.3em;
+}
+.btn5{
+    margin-left: 1.6em;
 }
 
  .promo{
@@ -75,31 +79,236 @@ li{
     padding-top: 0.7em;
     position: sticky;
     top: 0px;
-    font-size: 1.3em;
+    font-size: 0.9em;
 }
 
 .firstPart{
     background-image: url(../images/Binance-background-image.png);
-    height:60em;
+    /* height:60em; */
     background-size: contain;
     display: grid;
     grid-template-columns: 1fr 1fr;
     /* align-items: center; */
-    padding:10em 6em 0em 6em;
-    gap:2em
+    padding:5em 6em 0em 6em;
+    gap:2em;
+    margin-top: 4em;
 }
 
 
 h1{
-    font-size:3.5em;
+    font-size:2.3em;
 }
 
 .p{
-    font-size: 2em;
+    font-size: 1.2em;
     color: #323233;
 }
 
 .svg{
     width: 1.1em;
     
+}
+.stats{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6em;
+    margin-inline: 6em;
+    font-size: 1.3em;
+    padding-block: 5em;  
+}
+
+.stats > p{
+    font-size: 0.3em;
+}
+
+.sec2{
+    margin-top: 3em;
+    margin-left: 8em;
+}
+
+.sec2 > img{
+    width: 90%;
+}
+
+.names{
+    color: #8C94A1;
+}
+
+.name{
+    color: #4CBE96;
+}
+.sect3 {
+    margin-left: 6em;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top:2em;
+
+}
+
+.end{
+    text-align: end;
+    padding-right: 6em;
+}
+.signup{
+    margin-left: 6em;
+    margin-bottom: 2em;
+    margin-top: 6em;
+}
+
+.signup > button{
+    margin: 2em 0em;
+    background-color: #FCD535;
+    border: none;
+    border-radius: 4px;
+    height: 3.2em;
+    width: 15em;
+}
+
+.sect6{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15em;
+    margin-left: 6em;
+}
+
+
+.sect6 :nth-child(2){
+    margin-top: 2em;
+}
+.sect7{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   
+    
+}
+
+.gray{
+    color: #474D57;
+}.btn6{
+    height: 3em;
+    width: 15em;
+    background-color: #FCD535;
+    margin-top: 2.6em;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.grid-2{
+    display: grid;
+    grid-template-columns: 3em 30em;
+    gap: 1em;
+ }
+ 
+ .grid-2 > img{
+     margin-top: 2em;
+     height: fit-content;
+     width: fit-content;
+ }
+
+ .svg-2{
+    width: 5em;
+}
+
+.third{
+    margin: 6em;
+}
+.simple{
+    font-size: 1.3em;
+}
+
+.coins{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap:2em;
+    height: 30em;
+    margin-top: 6em;
+}
+
+.coins > a{
+    background-color: #FAFAFA;
+    border-radius: 1em;
+    text-align: center;
+    border: 2px solid white;
+    padding-top: 2em;
+}
+.coins > a:hover{
+    border: 2px solid #FCD535;
+    color: black;
+}
+
+.coinlogo{
+    width: 2em;
+    
+    margin-right: 0.5em;
+}
+.coinName{
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-block: 0.5em;
+    
+}
+.coinPercent{
+    color: #03A66D;
+    padding-top: 0.5em;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.grid-3{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+}
+.grid-4{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 40em;
+    gap: 1em;
+    margin-bottom: 2em;
+}
+.grid-5{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.space{
+    padding-top: 0.6em;
+}
+.explore{
+    background-color: #FAFAFA;
+    border-radius: 1em;
+    margin-top: 6em;
+    box-shadow: none;
+    text-align: center;
+}
+.explore:hover{
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   color: #2E2F35;
+}
+.nft1 > img{
+    width: 90%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.head2{
+    font-size: 1.7em;
+    text-align: start;
+    padding: 1em;
+}
+.p2{
+    text-align: start;
+    padding-inline: 1em;
+    color: #4D5156;
+}
+.p3{
+    font-size: 1.3em;
+    color: #474D57;
+    margin-bottom: 4em;
+}
+.learn{
+    text-align: end;
+    color:#4D5156;
 }
