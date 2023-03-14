@@ -98,6 +98,10 @@ li{
 h1{
     font-size:2.3em;
 }
+.nav-icon{
+    background-image: url(../images/main-nav.svg);
+    background-size: auto;
+}
 
 .p{
     font-size: 1.2em;
@@ -111,7 +115,7 @@ h1{
 .stats{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 6em;
+    gap: 3.5em;
     margin-inline: 6em;
     font-size: 1.3em;
     padding-block: 5em;  
@@ -138,7 +142,7 @@ h1{
     color: #4CBE96;
 }
 .sect3 {
-    margin-left: 6em;
+    margin: 6em 0em 3em 6em;
 }
 
 .grid{
@@ -184,7 +188,15 @@ h1{
    
     
 }
-
+.size{
+    font-size: 1em;
+    padding-bottom: 2em;
+}
+.head4{
+    font-size: 1.5em;
+    color: #1E2329;
+    font-weight: lighter;
+}
 .gray{
     color: #474D57;
 }.btn6{
@@ -201,6 +213,7 @@ h1{
     display: grid;
     grid-template-columns: 3em 30em;
     gap: 1em;
+    padding-bottom: 0.5em;
  }
  
  .grid-2 > img{
@@ -226,6 +239,7 @@ h1{
     gap:2em;
     height: 30em;
     margin-top: 6em;
+    text-align: center;
 }
 
 .coins > a{
@@ -257,7 +271,15 @@ h1{
     font-size: 1.5em;
     font-weight: bold;
 }
-
+.arrow{
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    background-color: #dedfe0;
+    margin: auto;
+    text-align: center;
+    padding-top: 0.5em;
+}
 .grid-3{
     display: grid;
     grid-template-columns: 1fr 6fr;
@@ -273,6 +295,24 @@ h1{
     display: grid;
     grid-template-columns: auto auto;
 }
+.grid-6{
+    display: grid;
+    grid-template-columns:auto auto auto ;
+    gap:5em;
+    font-size: 0.9em;
+    margin-top: 6em;
+}
+.grid-7{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1em;
+ }
+ 
+ .grid-2 > img{
+     margin-top: 2em;
+     height: fit-content;
+     width: fit-content;
+ }
 
 .space{
     padding-top: 0.6em;
@@ -311,4 +351,75 @@ h1{
 .learn{
     text-align: end;
     color:#4D5156;
+}
+.link{
+    color:#D9B44D;
+}
+.section{
+    text-align: center;
+    padding-block: 6em;
+    background-color: #FAFAFA;
+}
+footer{
+    padding: 6em;
+}
+.foot{
+   padding-bottom: 3em;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+.footer{
+    padding-block: 0.5em;
+}
+.footer> a{
+    color: #85888B;
+    font-size: 0.9em;
+    
+}
+.footer>a:hover{
+    color: #2E2F35;
+}
+hr{
+    border-top: 0.1em solid #edeeee;
+    color: #edeeee;
+    margin-bottom: 3em;
+}
+.binance{
+    text-align: center;
+    color: #85888B;
+}
+.contn{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 25em;
+}
+.short-line{
+    height: 1px;
+    width: 6.5em;
+    background-color: #edeeee;
+    margin-top: 0.5em;
+}
+.money> p{
+    font-size: 0.7em;
+    color: #4D5156;
+}
+.computer{
+    padding-top: 5em;
+}
+.osIcon{
+    display: grid;
+    grid-template-columns: 6em 6em 6em;
+    gap:4em;
+}
+.os{
+    text-align: center;
+    padding: 0.8em;
+    font-size: .8em;
+    border-radius: 1em;
+}
+.os:hover{
+    background-color: #F5F5F5;
+}
+.os>img{
+    width: 1.5em;
 }
